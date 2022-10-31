@@ -16,7 +16,7 @@ spec:
       - env:
         - name: env
           value: development
-        image: quay.io/karthik_jk/devfile-nodejs
+        image: quay.io/karthik_jk/devfile-nodejs@sha256:da76145f41cd63504f90da49d390f565e32ea31cd961f5fca0b9aba1712c151d
         name: container-image
         resources: {}
 status: {}
